@@ -17,7 +17,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/lib/libstagefright_surface_utils.so \
     vendor/xiaomi/garnet/proprietary/lib/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.bluetooth.audio-V1-ndk.so \
-    vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.display.config-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.display.config-V10-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.display.config-V2-ndk.so \
@@ -38,7 +37,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/lib64/libstagefright_surface_utils.so \
     vendor/xiaomi/garnet/proprietary/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.bluetooth.audio-V1-ndk.so \
-    vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.display.config-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.display.config-V10-ndk.so \
     vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.display.config-V2-ndk.so \
@@ -4426,6 +4424,10 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnet_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop
+    #vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
+    #vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
+
+
     
 PRODUCT_PACKAGES += \
     CACertService \
