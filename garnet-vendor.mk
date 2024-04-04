@@ -4434,17 +4434,12 @@ PRODUCT_PACKAGES += \
     CneApp \
     IFAAService \
     IWlanService \
-    MipayService \
     SoterService \
     TimeService \
-    TrustZoneAccessService \
-    PowerOffAlarm \
     QtiTelephonyService \
     WfdService \
     ims \
     qcrilmsgtunnel \
-    OpticalTestTool \
-    goodix_sz \
     AHBF@2.1-service \
     android.hardware.atrace@1.0-service \
     android.hardware.boot@1.2 \
@@ -4478,7 +4473,6 @@ PRODUCT_PACKAGES += \
     manifest_vendor.xiaomi.hardware.vsimapp \
     memtrack_qti \
     mi-misight \
-    mrm \
     power \
     qtiradio-saidl \
     vendor.qti.diag.hal.service \
@@ -4508,4 +4502,10 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
     vendor.xiaomi.sensor.communicate@1.0_manifest \
     vendor.qti.hardware.sigma_miracast \
-    vendor.qti.qesdsys.service
+    #vendor.qti.qesdsys.service
+    #TrustZoneAccessService
+    #PowerOffAlarm 
+    #OpticalTestTool
+    #goodix_sz 
+    #mrm 
+
