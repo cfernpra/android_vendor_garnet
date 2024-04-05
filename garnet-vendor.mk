@@ -519,7 +519,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.qspmhal-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor/bin/ATFWD-daemon \
@@ -4426,7 +4425,9 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so 
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.3.so 
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so \
+
 
 
 
