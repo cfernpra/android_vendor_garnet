@@ -429,7 +429,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmssl@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmssl@1.1.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.limits@1.0.so \
@@ -4426,7 +4425,9 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so -- so not dolby support
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so \
+
 
 
 
