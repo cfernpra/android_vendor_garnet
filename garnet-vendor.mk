@@ -138,7 +138,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/lib-imsvtutils.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libdiag_system.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libdisplayconfig.system.qti.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyottcontrol.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libdpmframework.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libmiracastsystem.so \
@@ -238,12 +237,9 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V4-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qseecom-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.am@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so \
@@ -255,7 +251,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.6.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.7.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.9.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.1.so \
@@ -321,7 +316,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.qspmhal-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
@@ -350,7 +344,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/lib-imsvtutils.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdiag_system.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdisplayconfig.system.qti.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyottcontrol.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdpmframework.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libmiracastsystem.so \
@@ -4424,8 +4417,21 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnet_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop
+    #TODO: search for the following libraries
     #vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
     #vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
+    #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V4-ndk.so 
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so
+    #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.9.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so -- so not dolby support
+
+
+
+
+
 
 
     
