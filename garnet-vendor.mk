@@ -185,7 +185,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.5.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.6.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.7.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so \
@@ -391,7 +390,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.5.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.6.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.7.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so \
@@ -4427,6 +4425,10 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so -- so not dolby support
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so \
+
+
 
 
 
