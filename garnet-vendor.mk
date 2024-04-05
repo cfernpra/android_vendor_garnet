@@ -443,7 +443,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qseecom-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so \
@@ -4426,7 +4425,9 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so \
+
 
 
 
