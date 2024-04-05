@@ -279,7 +279,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so \
@@ -489,7 +488,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so \
@@ -4426,7 +4424,10 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
+
 
 
 
