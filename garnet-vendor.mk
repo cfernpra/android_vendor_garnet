@@ -279,7 +279,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.ims.configservice@1.0.so \
@@ -305,7 +304,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.2.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.3.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.qccvndhal_aidl-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.qesdhal@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.qesdhal@1.1.so \
@@ -488,7 +486,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.ims.configservice@1.0.so \
@@ -514,7 +511,6 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.1.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.2.so \
-    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.qesdhal@1.0.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.qesdhal@1.1.so \
@@ -4426,7 +4422,15 @@ ODM_MANIFEST_FILES += \
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so 
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so 
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.3.so 
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so \
+
+
+
+
 
 
 
