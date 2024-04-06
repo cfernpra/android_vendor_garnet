@@ -4404,29 +4404,29 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnet_build.prop \
-    vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop
+    vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.3.so
+
     #TODO: search the following libraries
-    #vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
-    #vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
-    #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V4-ndk.so 
+    #vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so NOPE
+    #vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so NOPE
+    #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so  NOPE
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V4-ndk.so NOPE
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so
     #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.9.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so -- so not dolby support
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/libdolbyeffect.so ---USELESS
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libdolbyeffect.so ---USELESS
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.data.factory@2.8.so NOT NEEDED
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.data.factory@2.8.so NOT NEEDED
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.embmsslaidl-V1-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.qconfig-V4-ndk.so
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so 
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so 
     #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.latency@2.3.so 
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so
-    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so \
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.qti.latency@2.3.so --- Only lib no lib64
+    #    vendor/xiaomi/garnet/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so NOPE
 
 
 
