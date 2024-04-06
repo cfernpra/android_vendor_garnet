@@ -4405,7 +4405,7 @@ ODM_MANIFEST_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnet_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop
-    #TODO: search for the following libraries
+    #TODO: search the following libraries
     #vendor/xiaomi/garnet/proprietary/lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
     #vendor/xiaomi/garnet/proprietary/lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
     #vendor/xiaomi/garnet/proprietary/system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so
