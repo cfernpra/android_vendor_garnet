@@ -14,8 +14,6 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/power_supply/battery/cid_status
     chown system system /sys/class/power_supply/battery/lpd_update_en
     chown system system /sys/class/power_supply/battery/smart_chg
-    chown system system /sys/class/power_supply/battery/sport_mode
-    chown system system /sys/class/power_supply/battery/hifi_connect
     chown system system /sys/class/qcom-battery/reverse_chg_mode
     chown system system /sys/class/qcom-battery/bt_state
     chown system system /sys/class/qcom-battery/rx_cr
@@ -79,7 +77,6 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/qcom-battery/otg_ui_support
     chown system system /sys/class/qcom-battery/cid_status
     chown system system /sys/class/qcom-battery/smart_chg
-    chown system system /sys/class/qcom-battery/hifi_connect
     chmod 0660 /sys/class/power_supply/battery/input_suspend
     chmod 0660 /sys/class/power_supply/battery/smart_batt
     chmod 0660 /sys/class/power_supply/battery/shipmode_count_reset
@@ -88,8 +85,6 @@ on property:dev.bootcomplete=1
     chmod 0440 /sys/class/power_supply/battery/cid_status
     chmod 0660 /sys/class/power_supply/battery/lpd_update_en
     chmod 0660 /sys/class/power_supply/battery/smart_chg
-    chmod 0660 /sys/class/power_supply/battery/sport_mode
-    chmod 0660 /sys/class/power_supply/battery/hifi_connect
     chmod 0660 /sys/class/qcom-battery/reverse_chg_mode
     chmod 0660 /sys/class/qcom-battery/rx_cr
     chmod 0660 /sys/class/qcom-battery/input_suspend
@@ -152,7 +147,6 @@ on property:dev.bootcomplete=1
     chmod 0440 /sys/class/qcom-battery/otg_ui_support
     chmod 0440 /sys/class/qcom-battery/cid_status
     chmod 0660 /sys/class/qcom-battery/smart_chg
-    chmod 0660 /sys/class/qcom-battery/hifi_connect
 
 service micharge-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
     class hal
