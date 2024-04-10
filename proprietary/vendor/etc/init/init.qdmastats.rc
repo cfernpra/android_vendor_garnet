@@ -13,7 +13,6 @@ on post-fs-data
     mkdir /data/vendor/qdma/shared 0770 system system
     mkdir /data/vendor/qdma/shared/3 0770 system system
     mkdir /data/vendor/qdma/shared/1503 0770 system system
-    mkdir /dev/socket/qcc_trd 0770 system vendor_qtr
     chmod 2770 /dev/socket/qcc_trd
 
 service vendor.qcc-trd /system/vendor/bin/qcc-trd
